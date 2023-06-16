@@ -5,7 +5,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 |:--:|:--:|:--:|:--:|
 | Aarav R | Monte Vista High School | Mechanical Engineering | Incoming Sophomore
 
-![Headstone Image](IMG_2099.jpg)
+![Headstone Image](IMG_2099.png)
   
 # Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
