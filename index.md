@@ -1,5 +1,5 @@
 # Smart Robot Car
-Hi. My name is Aarav and I built a line-tracking, obstacle-avoiding rover with four motors and an ultrasonic sensor.
+Hi. My name is Aarav and I built a line-tracking, obstacle-avoiding rover with four motors and an ultrasonic sensor. The car is able to be either remote controlled or is also capabale of self-driving.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
