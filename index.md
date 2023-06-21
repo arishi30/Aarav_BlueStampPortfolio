@@ -21,9 +21,12 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
+- In this milestone, I was able to successfully get the remote control to start working. To do this, I had to integrate some code from the Motor Test Run into the remote control code. 
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- One challenge that I had during this milestone was putting the right amount of code from the Motor Test Run into the Remote Control code. I had to take in consideration of all the different commands for the motors and their respective definitions.
+- What needs to be completed before your final milestone
+- Before the final milestone, the parts for my modification need to arrive. For my modification, I plan to attach a light sensor with a photoresistor and a couple of LEDs to the Arduino chip. By adding these objects, the car will be able to sense the amount of light present in an area. If the light is low or dim, the sensor will tell the LED to turn on and vice versa. 
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
