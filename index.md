@@ -32,12 +32,13 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
-- In the project, there are four motors that correspond to the four different wheels. There is also a camera and an ultrasonic sensor that allows the car to measure how far an obstacle is and then determines when to turn. 
+- In the project, there are four motors that correspond to the four different wheels. There is also a camera and an ultrasonic sensor that allows the car to measure how far an obstacle is and then determines when to turn. Additionally, there was a remote control included in the kit.
 - Technical progress you've made so far
-- In the beginning of the programming process, I spent a lot of time trying to upload the code for the motors to move to the Arduino platform. I tried unplugging the cable and putting it in different ports and even restarted Arduino on my computer multiple times. However, my instrucutor and I soon figured out that there was a switch on the Arduino chip with two sides, camera and upload. Because it was on the camera side, the Arduino platform didn't recognize ir.
+- So far, I have ran and uploaded a successful motor test run, which tested the functionaity of all four motors.
 - Challenges you're facing and solving in your future milestones
+-  The main problem I had was getting the motors to run. In the beginning of the programming process, I spent a lot of time trying to upload the code for the motors to move to the Arduino platform. I tried unplugging the cable and putting it in different ports and even restarted Arduino on my computer multiple times. However, my instrucutor and I soon figured out that there was a switch on the Arduino chip with two sides, camera and upload. Because it was on the camera side, the Arduino platform didn't recognize it.
 - What your plan is to complete your project
-- Some of my future goals are to work on increasing the speed of the car and programming it to avoid different obstacles.
+- Some of my future goals are to work on increasing the speed of the car, programming it to avoid different obstacles, and getting the motors to pair with the remote control.
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
