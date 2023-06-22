@@ -35,9 +35,9 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
-- In the project, there are four motors that correspond to the four different wheels. There is also a camera and an ultrasonic sensor that allows the car to measure how far an obstacle is and then determines when to turn. Additionally, there was a remote control included in the kit.
+- In the project, there are four motors that correspond to the four different wheels. There is also a camera, an ultrasonic sensor (it allows the car to measure how far an obstacle is and then determines when to turn), and a line-tracking module. Furthermore, there is the Arduino Uno Chip, which acts as the microcontroller, where all the code and programming is run through. Additionally, there was a remote control included in the kit to manually control the car. 
 - Technical progress you've made so far
-- So far, I have ran and uploaded a successful motor test run, which tested the functionaity of all four motors.
+- So far, I have ran and uploaded a successful motor test run, which tested the functionality of all four motors on the base of the car. 
 - Challenges you're facing and solving in your future milestones
 -  The main problem I had was getting the motors to run. In the beginning of the programming process, I spent a lot of time trying to upload the code for the motors to move to the Arduino platform. I tried unplugging the cable and putting it in different ports and even restarted Arduino on my computer multiple times. However, my instrucutor and I soon figured out that there was a switch on the Arduino chip with two sides, camera and upload. Because it was on the camera side, the Arduino platform didn't recognize it.
 - What your plan is to complete your project
@@ -72,9 +72,11 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Elegoo Smart Robot Kit | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Elegoo Smart Robot Kit V4 | What the item is used for | $79.98 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| 9-volt batteries | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 8-Pack 9-volt batteries | What the item is used for | $12.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| 9-volt DC Battery Power Cable Plug | What the item is used for | $6.79 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
