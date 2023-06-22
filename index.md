@@ -34,14 +34,10 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
 - In the project, there are four motors that correspond to the four different wheels. There is also a camera, an ultrasonic sensor (it allows the car to measure how far an obstacle is and then determines when to turn), and a line-tracking module. Furthermore, there is the Arduino Uno Chip, which acts as the microcontroller, where all the code and programming is run through. Additionally, there was a remote control included in the kit to manually control the car. 
-- Technical progress you've made so far
-- So far, I have ran and uploaded a successful motor test run, which tested the functionality of all four motors on the base of the car. 
-- Challenges you're facing and solving in your future milestones
--  The main problem I had was getting the motors to run. In the beginning of the programming process, I spent a lot of time trying to upload the code for the motors to move to the Arduino platform. I tried unplugging the cable and putting it in different ports and even restarted Arduino on my computer multiple times. However, my instrucutor and I soon figured out that there was a switch on the Arduino chip with two sides, camera and upload. Because it was on the camera side, the Arduino platform didn't recognize it.
-- What your plan is to complete your project
-- Some of my future goals are to work on increasing the speed of the car, programming it to avoid different obstacles, and getting the motors to pair with the remote control.
+- So far, the major breakthrough I have had is running and uploading a successful motor test run, which tested the functionality of all four motors on the base of the car. 
+-  The main problem I had was getting the motors to run. In the beginning of the programming process, I spent a lot of time trying to upload the code  to the Arduino platform for the motors to move. I tried unplugging the cable and putting it in different ports and even restarted Arduino on my computer multiple times. However, my instrucutor and I soon figured out that there was a switch on the shield above the Arduino chip with two sides, camera and upload. Because it was on the camera side, the Arduino platform never recognized any of the code that was trying to be uploaded.
+- Some of my future goals are to work on increasing the speed of the car, programming it to avoid different obstacles, and getting the motors to pair with the remote control. I also want some sort of modification, either a speaker or light-sensitvity.
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
@@ -72,9 +68,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Elegoo Smart Robot Kit V4 | What the item is used for | $79.98 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Elegoo Smart Robot Kit V4 | What the item is used for | $79.98 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> https://www.amazon.com/dp/B07KPZ8RSZ?maas=maas_adg_362A97D58CBCE8102DCB01CBFCC13F92_afap_abs&ref_=aa_maas&tag=maas&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH2jewmYpniPACk46WkTIe49PpDmUiXHb33lgDBl9sFuCHV7G10YU2MaAi1lEALw_wcB&th=1 </a> |
 |:--:|:--:|:--:|:--:|
-| 8-Pack 9-volt batteries | What the item is used for | $12.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 8-Pack 9-volt batteries | What the item is used for | $12.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S/ref=sr_1_1_ffob_sspa?keywords=8+pack+9+volt+batteries&qid=1687467125&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 </a> |
 |:--:|:--:|:--:|:--:|
 | 9-volt DC Battery Power Cable Plug | What the item is used for | $6.79 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
