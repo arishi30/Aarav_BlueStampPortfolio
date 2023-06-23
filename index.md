@@ -47,18 +47,188 @@ For your first milestone, describe what your project is and how you plan to buil
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
 ```c++
+#include <IRremote.h>
+#include <SparkFun_TB6612.h>
+
+#define AIN1 7
+#define BIN1 8
+#define AIN2 1
+#define BIN2 2
+#define PWMA 5
+#define PWMB 6
+#define STBY 3
+
+// these constants are used to allow you to make your motor configuration 
+// line up with function names like forward.  Value can be 1 or -1
+const int offsetA = 1;
+const int offsetB = 1;
+
+// Initializing motors.  The library will allow you to initialize as many
+// motors as you have memory for.  If you are using functions like forward
+// that take 2 motors as arguements you can either write new functions or
+// call the function more than once.
+
+Motor motor1 = Motor(AIN1, AIN2, PWMA, offsetA, STBY);
+Motor motor2 = Motor(BIN1, BIN2, PWMB, offsetB, STBY);
+
+const int recvPin = 9;
+IRrecv irrecv(recvPin); //Create an instance of the ``IRrecv`` class, specifying the pins it's attached to.
+decode_results results;
+
+const int in1 = 5; // in1,2 for right wheel
+const int in2 = 6;
+const int in3 = 2; // in3,4 for left wheel
+const int in4 = 10;
+
+const int ledPin = 13;
+int speed = 150;
+
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Hello World!");
+
+  //motor
+  //pinMode(in1, OUTPUT);
+  //pinMode(in2, OUTPUT);
+  //pinMode(in3, OUTPUT);
+  //pinMode(in4, OUTPUT);
+
+  //UR remote
+  irrecv.enableIRIn(); // Start the receiver
+  Serial.println("REMOTE CONTROL START");
+
+  //LED
+  pinMode(ledPin, OUTPUT);
+
+  forward(motor1, motor2, 150);
+   delay(1000);
+   brake(motor1, motor2);
+   //moveforward(speed)
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
+  if (irrecv.decode(&results)) {
+    //    Serial.println(results.value,HEX);
+    String key = decodeKeyValue(results.value);
+    if ( key != "ERROR")
+    {
+      Serial.println(key);
+      blinkLED();
+      if (key == "+") {
+        speed += 50;
+      } else if (key == "-") {
+        speed -= 50;
+      } else if (key == "2") {
+        forward(motor1, motor2, 150);
+       // moveForward(speed);
+        delay(1000);
+      } else if (key == "1") {
+        left(motor1, motor2, 100);
+       // moveLeft(speed);
+      } else if (key == "3") {
+        right(motor1, motor2, 100);
+        delay(500);
+        brake(motor1, motor2);
+       // moveRight(speed);
+      } else if (key == "4") {
+       // turnLeft(speed);
+      } else if (key == "6") {
+       // turnRight(speed);
+      } else if (key == "7") {
+      //backLeft(speed);
+      } else if (key == "9") {
+      //backRight(speed);
+      } else if (key == "8") {
+        back(motor1, motor2, -150);
+       // moveBackward(speed);
+        delay(500);
+        brake(motor1, motor2);
+      }
+
+      if (speed >= 255) {
+        speed = 255;
+      }
+      if (speed <= 0) {
+        speed = 0;
+      }
+      delay(500);
+      //stopMove();
+    }
+
+    irrecv.resume(); // Receive the next value
+  }
+}
+
+// void moveForward(int speed) {
+//   analogWrite(in1, 0);
+//   analogWrite(in2, speed);
+//   analogWrite(in3, speed);
+//   analogWrite(in4, 0);
+// }
+
+// void moveBackward(int speed) {
+//   analogWrite(in1, speed);
+//   analogWrite(in2, 0);
+//   analogWrite(in3, 0);
+//   analogWrite(in4, speed);
+// }
+
+// void turnRight(int speed) {
+//   analogWrite(in1, speed);
+//   analogWrite(in2, 0);
+//   analogWrite(in3, speed);
+//   analogWrite(in4, 0);
+// }
+
+// void turnLeft(int speed) {
+//   analogWrite(in1, 0);
+//   analogWrite(in2, speed);
+//   analogWrite(in3, 0);
+//   analogWrite(in4, speed);
+// }
+
+// void moveLeft(int speed) {
+//   analogWrite(in1, 0);
+//   analogWrite(in2, speed);
+//   analogWrite(in3, 0);
+//   analogWrite(in4, 0);
+// }
+
+// void moveRight(int speed) {
+//   analogWrite(in1, 0);
+//   analogWrite(in2, 0);
+//   analogWrite(in3, speed);
+//   analogWrite(in4, 0);
+// }
+
+// void backLeft(int speed) {
+//   analogWrite(in1, speed);
+//   analogWrite(in2, 0);
+//   analogWrite(in3, 0);
+//   analogWrite(in4, 0);
+// }
+
+// void backRight(int speed) {
+//   analogWrite(in1, 0);
+//   analogWrite(in2, 0);
+//   analogWrite(in3, 0);
+//   analogWrite(in4, speed);
+// }
+
+// void stopMove() {
+//   analogWrite(in1, 0);
+//   analogWrite(in2, 0);
+//   analogWrite(in3, 0);
+//   analogWrite(in4, 0);
+// }
+
+void blinkLED() {
+  for (int i = 0; i < 3; i++) {
+    digitalWrite(ledPin, HIGH);
+    delay(50);
+    digitalWrite(ledPin, LOW);
+    delay(50);
 }
 ```
 
