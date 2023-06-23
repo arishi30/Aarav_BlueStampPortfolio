@@ -160,69 +160,6 @@ void loop() {
   }
 }
 
-// void moveForward(int speed) {
-//   analogWrite(in1, 0);
-//   analogWrite(in2, speed);
-//   analogWrite(in3, speed);
-//   analogWrite(in4, 0);
-// }
-
-// void moveBackward(int speed) {
-//   analogWrite(in1, speed);
-//   analogWrite(in2, 0);
-//   analogWrite(in3, 0);
-//   analogWrite(in4, speed);
-// }
-
-// void turnRight(int speed) {
-//   analogWrite(in1, speed);
-//   analogWrite(in2, 0);
-//   analogWrite(in3, speed);
-//   analogWrite(in4, 0);
-// }
-
-// void turnLeft(int speed) {
-//   analogWrite(in1, 0);
-//   analogWrite(in2, speed);
-//   analogWrite(in3, 0);
-//   analogWrite(in4, speed);
-// }
-
-// void moveLeft(int speed) {
-//   analogWrite(in1, 0);
-//   analogWrite(in2, speed);
-//   analogWrite(in3, 0);
-//   analogWrite(in4, 0);
-// }
-
-// void moveRight(int speed) {
-//   analogWrite(in1, 0);
-//   analogWrite(in2, 0);
-//   analogWrite(in3, speed);
-//   analogWrite(in4, 0);
-// }
-
-// void backLeft(int speed) {
-//   analogWrite(in1, speed);
-//   analogWrite(in2, 0);
-//   analogWrite(in3, 0);
-//   analogWrite(in4, 0);
-// }
-
-// void backRight(int speed) {
-//   analogWrite(in1, 0);
-//   analogWrite(in2, 0);
-//   analogWrite(in3, 0);
-//   analogWrite(in4, speed);
-// }
-
-// void stopMove() {
-//   analogWrite(in1, 0);
-//   analogWrite(in2, 0);
-//   analogWrite(in3, 0);
-//   analogWrite(in4, 0);
-// }
-
 void blinkLED() {
   for (int i = 0; i < 3; i++) {
     digitalWrite(ledPin, HIGH);
