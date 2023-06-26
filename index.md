@@ -167,13 +167,18 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Elegoo Smart Robot Kit V4 | What the item is used for | $79.98 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> https://www.amazon.com/dp/B07KPZ8RSZ?maas=maas_adg_362A97D58CBCE8102DCB01CBFCC13F92_afap_abs&ref_=aa_maas&tag=maas&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH2jewmYpniPACk46WkTIe49PpDmUiXHb33lgDBl9sFuCHV7G10YU2MaAi1lEALw_wcB&th=1 </a> |
+| Elegoo Smart Robot Kit V4 | Matierals to build core project | $79.98 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> https://www.amazon.com/dp/B07KPZ8RSZ?maas=maas_adg_362A97D58CBCE8102DCB01CBFCC13F92_afap_abs&ref_=aa_maas&tag=maas&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH2jewmYpniPACk46WkTIe49PpDmUiXHb33lgDBl9sFuCHV7G10YU2MaAi1lEALw_wcB&th=1 </a> |
 |:--:|:--:|:--:|:--:|
 | 8-Pack 9-volt batteries | Used for powering entire project | $12.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S/ref=sr_1_1_ffob_sspa?keywords=8+pack+9+volt+batteries&qid=1687467125&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 </a> |
 |:--:|:--:|:--:|:--:|
-| 9-volt DC Battery Power Cable Plug | What the item is used for | $6.79 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> https://www.amazon.com/Battery-Power-Barrel-Connector-Arduino/dp/B07NT79ZVB</a> |
+| 9-volt DC Battery Power Cable Plug | Connects battery pack to the shield | $6.79 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> 
+https://www.amazon.com/Battery-Power-Barrel-Connector-Arduino/dp/B07NT79ZVB</a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Alinan 120 pcs Dupont Cable Breadboard Jumper Wires | Used for connecting LEDs to light sensor | $6.79 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.amazon.com/Alinan-120pcs-Dupont-Breadboard-Jumper/dp/B09Q5LKJ1B/ref=asc_df_B09Q5LKJ1B/?tag=hyprod-20&linkCode=df0&hvadid=598354319261&hvpos=&hvnetw=g&hvrand=3413281763793005554&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031997&hvtargid=pla-1878425922190&th=1) </a> |
+|:--:|:--:|:--:|:--:|
+| Gikfun 10mm lED | Connected to light sensor and will turn on if the light in an area is low | $7.98 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> https://www.amazon.com/Gikfun-Emitting-Diodes-Diffused-Arduino/dp/B07DC5VFZ7?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A34K5WF5Z9R33P </a> |
 |:--:|:--:|:--:|:--:|
 
 # Other Resources/Examples
