@@ -37,7 +37,7 @@ In the project, there are four motors that correspond to the four different whee
 
 # Schematics 
 
-https://github.com/arishi30/Aarav_BlueStampPortfolio/blob/ee6b88215d297c376e0da0efac75e9018f8f7946/Elegoo%20Smart%20Car%20Schematics.png
+[(https://github.com/arishi30/Aarav_BlueStampPortfolio/blob/ee6b88215d297c376e0da0efac75e9018f8f7946/Elegoo%20Smart%20Car%20Schematics.png)]
 
 # Code
 ```c++
