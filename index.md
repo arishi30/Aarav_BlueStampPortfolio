@@ -181,7 +181,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Sparkfun Motor Test Run Library](https://learn.sparkfun.com/tutorials/tb6612fng-hookup-guide/all?gclid=CjwKCAjwkeqkBhAnEiwA5U-uM7hTbH6J6ZMSCURmsOcvQqINZed-wHCePxGhvCnHcUPRtSZOhl1TVBoCJ7UQAvD_BwE#library-and-example-code)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
+- [Remote Control Code]([https://sviatil0.github.io/Sviatoslav_BSE](https://docs.sunfounder.com/projects/3in1-kit/en/latest/car_project/car_remote_control.html))
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
