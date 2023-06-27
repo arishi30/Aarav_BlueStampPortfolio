@@ -21,9 +21,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 # Second Milestone
-
-    In my second milestone, I was able to successfully get the remote control to start working. To achieve this functionality, I had to integrate some code from the Motor Test Run into the remote control code. The remote control is paired to the four motors through the Arduino Uno development board and the shield. At this point, the car will go in any direction, until I give it another direction to go in or stop altogether. The most surprising thing about the project so far is how much I have already learned, even though it's only the end of the second week. When I first joined BlueStamp, I thought that I would simply just be building a car according to the manual. Then, I realized it was much more than that. From there, I learned how to integrate and edit code that I found online and learned how to upload it to the Arduino Uno. One challenge that I had during this milestone was putting the right amount of code from the Motor Test Run into the Remote Control code. I had to take in consideration of all the different commands for the motors and their respective definitions. Furthermore, before I edited the code, the car only moved a short distance before randomly stopping. 
-    Later, it worked to the point where it would continue in any direction, until I gave it another command. Before the final milestone, the parts for my modification need to arrive, so that I can start attaching it to my car. For my modification, I plan to attach a light sensor with a photoresistor and a couple of LEDs to the Arduino chip. By adding these objects, the car will be able to sense the amount of light present in an area. If the light is low or dim, the sensor will tell the LED to turn on and vice versa. 
+In my second milestone, I was able to successfully get the remote control to start working. To achieve this functionality, I had to integrate some code from the Motor Test Run into the remote control code. The remote control is paired to the four motors through the Arduino Uno development board and the shield. At this point, the car will go in any direction, until I give it another direction to go in or stop altogether. The most surprising thing about the project so far is how much I have already learned, even though it's only the end of the second week. When I first joined BlueStamp, I thought that I would simply just be building a car according to the manual. Then, I realized it was much more than that. From there, I learned how to integrate and edit code that I found online and learned how to upload it to the Arduino Uno. One challenge that I had during this milestone was putting the right amount of code from the Motor Test Run into the Remote Control code. I had to take in consideration of all the different commands for the motors and their respective definitions. Furthermore, before I edited the code, the car only moved a short distance before randomly stopping. 
+Later, it worked to the point where it would continue in any direction, until I gave it another command. Before the final milestone, the parts for my modification need to arrive, so that I can start attaching it to my car. For my modification, I plan to attach a light sensor with a photoresistor and a couple of LEDs to the Arduino chip. By adding these objects, the car will be able to sense the amount of light present in an area. If the light is low or dim, the sensor will tell the LED to turn on and vice versa. 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KXaQNS0lxn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -162,8 +161,6 @@ void blinkLED() {
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -181,9 +178,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
+
 - [Sparkfun Motor Test Run Library](https://learn.sparkfun.com/tutorials/tb6612fng-hookup-guide/all?gclid=CjwKCAjwkeqkBhAnEiwA5U-uM7hTbH6J6ZMSCURmsOcvQqINZed-wHCePxGhvCnHcUPRtSZOhl1TVBoCJ7UQAvD_BwE#library-and-example-code)
 - [Remote Control Code](https://docs.sunfounder.com/projects/3in1-kit/en/latest/car_project/car_remote_control.html)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
