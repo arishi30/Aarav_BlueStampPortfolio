@@ -18,6 +18,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
+
+
 # Second Milestone
 
     In my second milestone, I was able to successfully get the remote control to start working. To achieve this functionality, I had to integrate some code from the Motor Test Run into the remote control code. The remote control is paired to the four motors through the Arduino Uno development board and the shield. At this point, the car will go in any direction, until I give it another direction to go in or stop altogether. The most surprising thing about the project so far is how much I have already learned, even though it's only the end of the second week. When I first joined BlueStamp, I thought that I would simply just be building a car according to the manual. Then, I realized it was much more than that. From there, I learned how to integrate and edit code that I found online and learned how to upload it to the Arduino Uno. One challenge that I had during this milestone was putting the right amount of code from the Motor Test Run into the Remote Control code. I had to take in consideration of all the different commands for the motors and their respective definitions. Furthermore, before I edited the code, the car only moved a short distance before randomly stopping. 
