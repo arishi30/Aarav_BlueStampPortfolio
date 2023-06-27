@@ -34,7 +34,7 @@ In the project, there are four motors that correspond to the four different whee
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QjIsjb6_c_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
-![Headstone Image](IMG_2099.png)
+![Headstone Image](Elegoo_Smart_Car_Schematics.png)
 
 # Code
 ```c++
