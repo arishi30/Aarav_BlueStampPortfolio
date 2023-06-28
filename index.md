@@ -174,7 +174,7 @@ void blinkLED() {
 |:--:|:--:|:--:|:--:|
 | Alinan 120 pcs Dupont Cable Breadboard Jumper Wires | Used for connecting LEDs to light sensor | $6.79 | <a href="https://www.amazon.com/Alinan-120pcs-Dupont-Breadboard-Jumper/dp/B09Q5LKJ1B/ref=asc_df_B09Q5LKJ1B/?tag=hyprod-20&linkCode=df0&hvadid=598354319261&hvpos=&hvnetw=g&hvrand=3413281763793005554&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031997&hvtargid=pla-1878425922190&th=1"> Amazon.com </a> |
 |:--:|:--:|:--:|:--:|
-| Gikfun 10mm lED | Connected to light sensor and will turn on if the light in an area is low | $7.98 | <a href="https://www.amazon.com/Gikfun-Emitting-Diodes-Diffused-Arduino/dp/B07DC5VFZ7?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A34K5WF5Z9R33P"> Amazon.com </a> |
+| Gikfun 10mm LED | Connected to light sensor and will turn on if the light in an area is low | $7.98 | <a href="https://www.amazon.com/Gikfun-Emitting-Diodes-Diffused-Arduino/dp/B07DC5VFZ7?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A34K5WF5Z9R33P"> Amazon.com </a> |
 |:--:|:--:|:--:|:--:|
 
 # Other Resources/Examples
