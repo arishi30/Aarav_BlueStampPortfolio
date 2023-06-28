@@ -5,7 +5,7 @@ Hi, my name is Aarav and I built a line-tracking, obstacle-avoiding rover with f
 |:--:|:--:|:--:|:--:|
 | Aarav R | Monte Vista High School | Mechanical Engineering | Incoming Sophomore
 
-![Headstone Image](IMG_2099.png)
+![Headstone Image](IMG_2144.jpg)
   
 <!-- # Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
