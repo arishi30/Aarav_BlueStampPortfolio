@@ -29,7 +29,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KXaQNS0lxn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
-
 In the project, there are four motors that correspond to the four different wheels. There is also a camera, an ultrasonic sensor (it allows the car to measure how far an obstacle is and then determines when to turn), and a line-tracking module. Furthermore, there is the ATMEL Mega 328 development board, which acts as the microcontroller, where all the code and programming is run through. Additionally, there was a remote control included in the kit to manually control the car. So far, the major breakthrough I have had is uploading a successful motor test run, which tested the functionality of all four motors on the base of the car, and watching the simulation run on the actual hardware. The main problem I had was getting the motors to run. In the beginning of the programming process, I spent a lot of time trying to upload the code  to the Arduino platform for the motors to move. I tried unplugging the cable and putting it in different ports and even restarted Arduino on my computer multiple times. I enlisted the help of my instructor only to figure out that there was a switch on the shield above the Arduino chip with two sides, camera and upload. Because it was on the camera side, the Arduino platform never recognized any of the code that was trying to be uploaded. Some of my future goals are to work on increasing the speed of the car, programming it to avoid different obstacles, and getting the motors to pair with the remote control. Additionally, I also want some sort of modification, either a speaker or light-sensitvity.
 
 
@@ -170,8 +169,6 @@ void blinkLED() {
 | 8-Pack 9-volt batteries | Used for powering entire project | $12.99 | <a href="https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S/ref=sr_1_1_ffob_sspa?keywords=8+pack+9+volt+batteries&qid=1687467125&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Amazon.com </a> |
 |:--:|:--:|:--:|:--:|
 | 9-volt DC Battery Power Cable Plug | Connects battery pack to the shield | $6.79 | <a href="https://www.amazon.com/Battery-Power-Barrel-Connector-Arduino/dp/B07NT79ZVB"> Amazon.com </a> |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Alinan 120 pcs Dupont Cable Breadboard Jumper Wires | Used for connecting LEDs to light sensor | $6.79 | <a href="https://www.amazon.com/Alinan-120pcs-Dupont-Breadboard-Jumper/dp/B09Q5LKJ1B/ref=asc_df_B09Q5LKJ1B/?tag=hyprod-20&linkCode=df0&hvadid=598354319261&hvpos=&hvnetw=g&hvrand=3413281763793005554&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031997&hvtargid=pla-1878425922190&th=1"> Amazon.com </a> |
 |:--:|:--:|:--:|:--:|
